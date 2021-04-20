@@ -2,21 +2,25 @@
   margin: 0;
   padding: 0px;
 }
-form{
-    width: 200px;
-    height: auto;
-    margin: 50px auto;
-    border: 1px solid black;
-    border-radius: 10px;
-    padding: 20px;
-    text-align: center;
+form {
+  width: 200px;
+  height: auto;
+  margin: 50px auto;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
 }
-form >input{
-    padding: 5px;
-    width: 30px;
+form > input {
+  padding: 5px;
+  width: 30px;
+}
+form > #check {
+  width: auto;
+  margin: 20px 0px;
+}
+form > #reset {
+  width: auto;
 
-}
-form > #check{
-    width: auto;
-    margin: 20px 0px;
+  margin-left: 20px;
 }
