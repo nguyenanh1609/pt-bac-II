@@ -11,7 +11,7 @@ function kiemTraPhuongTrinhBac2() {
             if (c == 0) {
                 document.getElementById("kq").innerText = "Phuong trinh vo so nghiem"
             }
-            else {
+            else { 
 
                 document.getElementById("kq").innerText = "Phuong trinh vo nghiem"
             }
@@ -71,7 +71,7 @@ function kiemTraPhuongTrinhBac2() {
             else if (b > 0 && c < 0) {
                 document.getElementById("pt").innerText = a + "x^2" + "+" + b + "x" + c + "=0"
             }
-            document.getElementById("kq").innerText = "có 2 nghiệm" + ":" + (-b + Math.sqrt(delta)) / (2 * a) + " " + "và" + " " + (-b - Math.sqrt(delta)) / (2 * a)
+            document.getElementById("kq").innerText = "có 2 nghiệm" + ":" + ((-b + Math.sqrt(delta)) / (2 * a)).toFixed(4) + " " + "và" + " " + ((-b - Math.sqrt(delta)) / (2 * a)).toFixed(4)
 
         }
     }
